@@ -18,6 +18,7 @@ COLOR_2 = "#017DC3"   # azul claro
 COLOR_3 = "#005DAB"   # azul medio
 
 st.title("Simulador de demanda y recaudación – Peaje Ruta Viva")
+st.subheader("**Hecho por:** Oikonomics Consultora económica")
 st.caption(
     "Aplicación basada en una tabla de probabilidades simuladas (modelo de elección discreta). "
     "Estima cantidades esperadas por ruta y tipo de vehículo, curvas de demanda (precio vs cantidad) "
@@ -422,4 +423,5 @@ st.caption(
     "Importante: la recaudación se calcula solo para Ruta Viva (porque es donde existe peaje). "
     "Las curvas por ruta alternativa se mantienen para demanda/asignación, no para recaudación."
 )
+
 
