@@ -258,7 +258,7 @@ resultados = calcular_resultados(
 # =====================================================
 # DESCARGA (SIN TABLAS EN PANTALLA)
 # =====================================================
-st.subheader("Descarga de resultados (sin mostrar tablas)")
+st.subheader("Descarga de resultados")
 st.caption("Descarga el CSV con las variables usadas en los gráficos (probabilidades, cantidades y recaudación).")
 
 csv_bytes = resultados.to_csv(index=False).encode("utf-8")
@@ -422,3 +422,4 @@ st.caption(
     "Importante: la recaudación se calcula solo para Ruta Viva (porque es donde existe peaje). "
     "Las curvas por ruta alternativa se mantienen para demanda/asignación, no para recaudación."
 )
+
